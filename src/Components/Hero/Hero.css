@@ -1,10 +1,10 @@
- .hero{
+ .hero-container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(8, 0, 50, 0.7), rgba(8, 0, 50, 0.7)) url('../../assets/Hero.png');
+    background-color: #0a2e78 ;
+    color: white;
     background-size: cover;
     background-position: center;
-    color: white ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,7 +18,6 @@
     font-size: 1.5rem;
     line-height: 1.6;
     font-weight: 300;
-    color: #333;
 
 }
 
@@ -55,8 +54,9 @@
     border: none;
     border-radius: 10px;
     padding: 10px 20px;
-    background-color:orangered; 
-    color: #fff;
+    background-color:#ffcc00; 
+    color: #0a2e78;
+    cursor: pointer;
     font-size: 16px;
     gap: 20px;
 }   

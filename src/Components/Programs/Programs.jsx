@@ -4,7 +4,7 @@ import './Programs.css';
 const Programs = () => {
   return (
     <div className='programs'>
-      <div className='program-1'>
+      {/* <div className='program-1'>
         <h2>Program 1</h2>
         <p>Description of Program 1.</p>
       </div>
@@ -15,7 +15,7 @@ const Programs = () => {
       <div className='program-3'>
         <h2>Program 3</h2>
         <p>Description of Program 1.</p>
-      </div>
+      </div> */}
     </div>
   );
 };
