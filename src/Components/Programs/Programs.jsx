@@ -4,46 +4,37 @@ import program_1 from '../../assets/program-1.jpeg';
 import program_2 from '../../assets/program-2.jpeg';
 import program_3 from '../../assets/program-3.jpeg';
 import program_4 from '../../assets/program-4.jpeg';
-import program_icon1 from '../../assets/program- .jpeg';
-import program_icon2 from '../../assets/program-4.jpeg';
-import program_icon3 from '../../assets/program-4.jpeg';
-import program_icon4 from '../../assets/program-4.jpeg';
 
 const Programs = () => {
   return (
-    <div className='programs'>
+    <div className='programs m-24 w-20 flex items-center justify-between'>
       <div className='program'>
         <img src={program_1} alt='' />
-        <div className='caption'>
+        <div class='caption'>
           <img src='' alt='' />
           <p>Career & Employment</p>
         </div>
       </div>
 
       <div className='program'>
-        <div className='program'>
-        <img src={program_1} alt='' />
-        <div className='caption'>
+        <img src={program_2} alt='' />
+        <div class='caption'>
           <img src='' alt='' />
-          <p>Career & Employment</p>
+          <p>Eduaction</p>
         </div>
       </div>
-
       <div className='program'>
-        <div className='program'>
-        <img src={program_1} alt='' />
-        <div className='caption'>
+        <img src={program_3} alt='' />
+        <div class='caption'>
           <img src='' alt='' />
-          <p>Career & Employment</p>
+          <p>Developmentt</p>
         </div>
       </div>
-
       <div className='program'>
-        <div className='program'>
-        <img src={program_1} alt='' />
-        <div className='caption'>
+        <img src={program_4} alt='' />
+        <div class='caption'>
           <img src='' alt='' />
-          <p>Career & Employment</p>
+          <p>Reciutment</p>
         </div>
       </div>
     </div>
