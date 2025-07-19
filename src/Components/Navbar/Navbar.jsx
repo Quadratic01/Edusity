@@ -7,10 +7,10 @@ const Navbar = () => {
     <nav className='container'>
       <img src={logo} alt='' className='logo' />
       <ul>
-        <li>Home</li>
-        <li>Program</li>
-        <li>Campus</li>
         <li>About Us</li>
+        <li>Our Services</li>
+        <li>Jobs/Scolarship</li>
+        <li>Career Advice</li>
         <li>Testimonial</li>
         <li>Contact Us</li>
         <li>
