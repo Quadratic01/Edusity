@@ -1,14 +1,17 @@
 import React from 'react';
-import './Programs.css';
 import program_1 from '../../assets/program-1.jpeg';
 import program_2 from '../../assets/program-2.jpeg';
 import program_3 from '../../assets/program-3.jpeg';
 import program_4 from '../../assets/program-4.jpeg';
 
+const images = [ program_1, program_2, program_3, program_4 ] => {
+
+}
+
 const Programs = () => {
   return (
-    <div className='programs m-24 w-20 flex items-center justify-between'>
-      <div className='program'>
+    <div className='programs gap-10 m-24 w-full flex items-center justify-between'>
+      <div className='program basis-auto'>
         <img src={program_1} alt='' />
         <div class='caption'>
           <img src='' alt='' />
