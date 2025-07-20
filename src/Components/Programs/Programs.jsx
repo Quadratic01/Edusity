@@ -26,7 +26,7 @@ const images = [
 
 const Programs = () => {
   return (
-    <div className='gap-10 flex mx-26 items-center justify-between'>
+    <div className='gap-10 flex text-gray-700 mt-16 mx-34 items-center justify-between'>
       {images.map((image, index) => (
         <div key={index} className='flex flex-col gap-4'>
           <img
