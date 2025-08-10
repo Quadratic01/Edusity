@@ -21,9 +21,8 @@
 }
 
 .hero-text h1 {
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Gill Sans',
-    'Gill Sans MT' 'Trebuchet MS', sans-serif, 'Trebuchet MS', 'Lucida Sans',
-    'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Gill Sans', 'Gill Sans MT',
+    'Trebuchet MS', sans-serif;
   font-size: 70px;
   font-weight: bolder;
   font-weight: 400;
