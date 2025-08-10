@@ -44,7 +44,7 @@ const Reviews = ({}) => {
           </div>
         ))}
       </div>
-      <button className='p-3 border-2 mb-6 bg-blue-800 text-white rounded-sm text-center'>
+      <button className='p-3 border-2 cursor-pointer mb-6 bg-blue-800 text-white rounded-sm text-center'>
         {' '}
         Read More Reviews{' '}
       </button>
