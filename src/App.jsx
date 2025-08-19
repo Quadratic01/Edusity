@@ -13,6 +13,8 @@ const App = () => {
       {/* <Title subTitle='Our Program' Title='What we offer' /> */}
       <Programs />
       <Reviews />
+      <Title subTitle='Latest Updates' Title='What’s new?' />
+      <Updates />
     </div>
   );
 };
